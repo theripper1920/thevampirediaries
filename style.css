@@ -1,0 +1,57 @@
+#p1{
+    font-family: 'Times New Roman', Times, serif; 
+    width: 80%;
+    font-size: 1.1em;
+    margin-top: -15px;
+    margin-left:10px ;
+    color:orange;
+}
+#p2{
+    font-family: 'Times New Roman', Times, serif;  
+    width: 80%;
+    font-size: 1.1em;
+    margin-left:10px ;
+    color:orange;
+}
+p{
+    width: 80%;
+    color:orange;
+}
+img{
+    width: 300px;
+}
+table, th, td {
+    border: 2px solid black;
+    font-size: 17px;
+}
+th, td {
+    padding: 10px;
+    
+}
+td {
+  font-size: 14px;
+}
+h1{
+    position: relative;
+    left:29% ;
+    color:white
+}
+.oi{
+    text-shadow:1px 1px rgb(153,1,1);
+}
+[href]{
+    color: red   
+}
+[href]:hover{
+    color: tomato;
+}
+
+@keyframes redtogreen{
+    from{color: white;}
+    to{color:rgb(153,1,1);}
+}
+#r1{
+    animation-name: redtogreen;
+    animation-duration: 7s;
+    animation-iteration-count: 1
+}
